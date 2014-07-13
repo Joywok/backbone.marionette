@@ -25,7 +25,6 @@ applications.
 Backbone.Marioneete是Backbone.js的复合应用程序库，旨在简化大型JavaScript应用的建设，是一组在应用中常见的设计与实现模式集合。
 
 ### App Architecture On Backbone's Building Blocks
-### 基于Backbone模块的应用程序架构
 
 Backbone provides a great set of building blocks for our JavaScript
 applications. It gives us the core constructs that are needed to build
@@ -34,6 +33,8 @@ support mobile devices and large scale enterprise needs. But Backbone is
 not a complete framework. It's a set of building blocks. It leaves
 much of the application design, architecture and scalability to the
 developer, including memory management, view management, and more.
+
+### 基于Backbone模块的应用程序架构
 
 Backbone为我们的JavaScript应用程序提供了大量的模块。它为我们生成小型应用程序，管理jQuery DOM事件，甚至创建一个支持移动端设备并且能够支持大型企业需求的单页面应用程序提供了核心框架。但是，Backbone并不是一个完整的框架。它还只是一套模块。它给开发人员留下了大量的应用程序的设计、架构方式以及可扩展性缺项，包括内存管理、视图管理等等。
 
@@ -53,18 +54,18 @@ to engage in an all-or-nothing migration to begin using Marionette.
 就像Backbone本身，你如果只需要使用一部分Marionette的功能，则不需要使用它的所有功能。你可以挑选你需要的特性来使用，这也使得你很容易同时集成其他Backbone框架和插件。这也意味着，你在准备使用Marionette框架前，不必纠结是全部使用还是完全不用。
 
 ### Chat with us
-### 联系我们
 
 Find us [on gitter](https://gitter.im/marionettejs/backbone.marionette) or on IRC in the FreeNode.net [#marionette channel](http://freenode.net).
 
 We're happy to discuss design patterns and learn how you're using Marionette.
+
+### 联系我们
 
 使用 [gitter](https://gitter.im/marionettejs/backbone.marionette) 或IRC客户端，在FreeNode.net [#marionette](http://freenode.net) 频道中可以找到我们。
 
 我们很高兴与你一起讨论设计模式，我们也想了解你是如何使用Marionette的。
 
 ### Key Benefits
-### 优势
 
 * Scalable: applications are built in modules, and with event-driven architecture
 * Sensible defaults: Underscore templates are used for view rendering
@@ -77,6 +78,8 @@ We're happy to discuss design patterns and learn how you're using Marionette.
 * Event-driven architecture with `Backbone.Wreqr.EventAggregator`
 * Flexible, "as-needed" architecture allowing you to pick and choose what you need
 * And much, much more
+
+### 优势
 
 * 扩展性：应用程序由模块构建，拥有事件驱动架构
 * 预设行为（模板技术）：视图通过Underscore模板进行渲染
