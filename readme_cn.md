@@ -98,15 +98,21 @@ For more information about the files in this folder, or to obtain an archive
 containing all Marionette dependencies (including Underscore, Backbone, etc.),
 please visit [the downloads section on the website](http://marionettejs.com#download).
 
+你可以直接在“lib”目录可以下载最新版本。如要获取相关文件的更多信息，以及获取包含所有Marionette依赖关系的文档（包括Underscore，Backbone等等），可以访问[the downloads section on the website](http://marionettejs.com#download)。
+
 #### [MarionetteJS.com](http://marionettejs.com#download)
 
 ### Available Packages
+### 获取安装包
 
 Marionette is available via bower, npm, and component.io. There are other channels that are maintained by the community.
+
+可以通过Bower、npm和component.io，以及一些社区维护的其他渠道来获取Marionette。
 
 ##### [Available Packages](https://github.com/marionettejs/backbone.marionette/wiki/Available-packages)
 
 ## Release Notes And Upgrade Guide
+## 发行说明和升级指南
 
 **Changelog**: For change logs and release notes, see the
 [changelog](changelog.md) file.
@@ -114,11 +120,20 @@ Marionette is available via bower, npm, and component.io. There are other channe
 **Upgrade Guide**: Be sure to read [the upgrade guide](upgradeGuide.md)
 for information on upgrading to the latest version of Marionette.
 
+**Changelog**：变更日志和发行说明，可查看文件[changelog](changelog.md)。
+
+**升级指南**：获取最新版本Marionette的升级信息，请阅读[the upgrade guide](upgradeGuide.md)文件。
+
 ## Documentation
+## 文档
 
 All of the documentation for Marionette can be found at
 
 ##### [marionettejs.com/docs/current](http://marionettejs.com/docs/current)
+
+Marionette的文档全部可以在下面地址找到
+
+##### [marionettejs.com/docs/current](http://marionettejs.com/docs/current) 
 
 ### Annotated Source Code
 
@@ -126,6 +141,12 @@ The source code for Marionette is heavily documented.
 You can read the annotations for all the details of how Marionette works, and advice on which methods to override.
 
 ##### [View the annotated source code](http://marionettejs.com/annotated-src/backbone.marionette)
+
+### 源码注释
+
+Marionette的源码中包含大量的文档。你可以通过阅读注释来了解Marionette如何工作的所有细节，并建议了哪些方法可被重写。
+
+##### [查看注释版源代码](http://marionettejs.com/annotated-src/backbone.marionette)
 
 ## Compatibility and Requirements
 
@@ -141,6 +162,17 @@ Marionette has not been tested against any other versions of these
 libraries. You may or may not have success if you use a version other
 than what it listed here.
 
+## 兼容性和要求
+
+目前 MarionetteJS 依赖一下库:
+
+* [jQuery](http://jquery.com) v1.8+
+* [Underscore](http://underscorejs.org) v1.4.4 - 1.6.0
+* [Backbone](http://backbonejs.org) v1.0.0 - 1.1.2 优先。v0.9.9 和 v0.9.10 版本也是可以运行的。
+* [Backbone.Wreqr](https://github.com/marionettejs/backbone.wreqr) 使用捆绑版本。
+* [Backbone.BabySitter](https://github.com/marionettejs/backbone.babysitter) 使用捆绑版本。
+
+Marionette没有针对这些库的其它版本进行测试。如果你使用列表中的其它版本，也许没问题，也许会出问题！
 
 ## How to Contribute
 
@@ -149,8 +181,17 @@ the [guidelines for pull requests and contributions](CONTRIBUTING.md).
 Following these guidelines will help make your contributions easier to
 bring into the next release.
 
+## 如何贡献
+
+如果你也想参与Marionette源码的贡献，请阅读[guidelines for pull requests and contributions](CONTRIBUTING.md)。
+按照指南的要求去做，你的贡献会更容易的合并到在下一个版本中。
+
 ### [Github Issues](//github.com/marionettejs/backbone.marionette/issues)
 
 Report issues with Marionette, submit pull requests to fix problems, or to
 create summarized and documented feature requests (preferably with pull
 requests that implement the feature).
+
+### [Github 问题](//github.com/marionettejs/backbone.marionette/issues)
+
+在这个地方，你可以报告Marionette的问题，提交解决问题的pull请求，或者创建总结和存档特性的请求（优先选择实现特性请求）
