@@ -184,7 +184,7 @@ bring into the next release.
 ## 如何贡献
 
 如果你也想参与Marionette源码的贡献，请阅读[guidelines for pull requests and contributions](CONTRIBUTING.md)。
-按照指南的要求去做，你的贡献会更容易的合并到在下一个版本中。
+按照指南的要求去做，你的贡献会更容易的被合并到在下一个版本中。
 
 ### [Github Issues](//github.com/marionettejs/backbone.marionette/issues)
 
